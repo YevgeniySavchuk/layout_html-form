@@ -38,7 +38,7 @@
             autocomplete="off"
             name="name"
             required
-          >        
+          >
         </div>
 
         <div class="form-field">
@@ -156,6 +156,8 @@
           <input 
             id="rate"
             type="range"
+            min="0"
+            max="10"
             name="rate"
           >
         </div>
@@ -179,11 +181,8 @@
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
-
         </div>
       </fieldset>
-      
-
       
       <div class="form-field">
         <button type="submit">Submit</button>

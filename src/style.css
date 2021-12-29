@@ -1,7 +1,7 @@
-input {
-  margin: 0 0 10px;
-}
-
 fieldset {
   margin: 0 0 20px;
+}
+
+.form-field {
+  margin-bottom: 10px;
 }
